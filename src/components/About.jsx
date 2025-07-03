@@ -1,5 +1,6 @@
 import { GraduationCap, Medal, Users2 } from "lucide-react";
 import React from "react";
+import image from '../assets/img/A-propos-left-1.png'
 
 function About() {
   return (
@@ -7,9 +8,9 @@ function About() {
       <div className="">
         <div className="relative w-96 h-64 mx-auto my-8">
           <img
-            src="../assets/img/A-propos-left-1.png"
+            src={image}
             alt="Image A"
-            className="absolute top-0 left-0 w-3/4 h-auto rounded-lg shadow-lg z-10"
+            className="absolute top-0 left-0 h-auto rounded-lg z-10"
           />
         </div>
       </div>

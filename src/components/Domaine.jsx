@@ -4,8 +4,8 @@ function Domaine() {
     return(
         <div className="bg-slate-100  shadow-md p-16 pl-32">
 
-        <h1 className="text-blue-900 underline text-5xl mb-3">Domaines :</h1>
-        <h3 className="text-blue-900 text-xl m-5">Au cours de vos trois ans de formation, naviguez entre les domaines les plus porteurs du numérique du présent et de l’avenir :</h3>
+        <h1 className="text-blue-950 text-5xl mb-3">Domaines :</h1>
+        <h3 className="text-blue-950 text-xl m-5">Au cours de vos trois ans de formation, naviguez entre les domaines les plus porteurs du numérique du présent et de l’avenir :</h3>
         <div className="flex gap-8">
         <Card
             imageSrc={logoHei}
