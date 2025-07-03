@@ -7,6 +7,7 @@ import { StrictMode } from 'react'
 import Domaine from './components/Domaine.jsx';
 import Programme from './components/Programme.jsx';
 import Block from './components/block.jsx';
+import SectionText from './components/Language.jsx';
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
             <Domaine/>
             <Programme/>
             <Block/>
-            </div>
+            <SectionText/>
+        </div>
     </StrictMode>
 )

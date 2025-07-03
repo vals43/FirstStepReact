@@ -15,7 +15,7 @@ const Block = () => {
           key={index}
           className="bg-[#fdf4e2] rounded-md p-6 w-64 text-center"
         >
-          <div className="text-3xl font-bold text-3xl text-[#d59a04] mb-2">
+          <div className="font-bold text-3xl text-[#d59a04] mb-2">
             25%
           </div>
           <div className="text-[#002147]  text-3xl font-semibold">
