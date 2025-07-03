@@ -6,13 +6,17 @@ import  Debouché  from "./components/Débouché.jsx";
 import { StrictMode } from 'react'
 import Domaine from './components/Domaine.jsx';
 import Programme from './components/Programme.jsx';
+import Block from './components/block.jsx';
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
+        <div className="bg-white">
             <Navbar />
             <About />
             <Debouché/>
             <Domaine/>
             <Programme/>
+            <Block/>
+            </div>
     </StrictMode>
 )
