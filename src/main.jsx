@@ -5,6 +5,7 @@ import  About  from "./components/About.jsx";
 import  Debouché  from "./components/Débouché.jsx";
 import { StrictMode } from 'react'
 import Domaine from './components/Domaine.jsx';
+import Programme from './components/Programme.jsx';
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')).render(
             <About />
             <Debouché/>
             <Domaine/>
+            <Programme/>
     </StrictMode>
 )
