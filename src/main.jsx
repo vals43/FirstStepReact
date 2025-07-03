@@ -8,6 +8,7 @@ import Domaine from './components/Domaine.jsx';
 import Programme from './components/Programme.jsx';
 import Block from './components/block.jsx';
 import SectionText from './components/Language.jsx';
+import Partenaire from './components/Partenaire.jsx';
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
             <Programme/>
             <Block/>
             <SectionText/>
+            <Partenaire/>
         </div>
     </StrictMode>
 )
