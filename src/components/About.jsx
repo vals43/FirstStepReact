@@ -16,7 +16,7 @@ function About() {
       </div>
       <div>
         <h1 className="text-4xl">À propos de nous</h1>
-        <p className="flex text-2xl mt-6">
+        <p className="flex items-center text-2xl mt-6">
           <GraduationCap className="text-yellow-600 size-14" /> +3Ans
         </p>
         <p>
@@ -24,7 +24,7 @@ function About() {
           l’informatique. Nous sommes un groupe d’experts, de professionnels et
           des passionnés de l’informatique de Madagascar et du monde entier.
         </p>
-        <p className="flex text-2xl mt-6">
+        <p className="flex items-center text-2xl mt-6">
           {" "}
           <Users2 className="text-yellow-600 size-14" /> +250 étudiants
         </p>
@@ -34,7 +34,7 @@ function About() {
           eux tous, nous sommes fiers de pouvoir parler de la “grande famille
           HEI”.
         </p>
-        <p className="flex text-2xl mt-6">
+        <p className="flex items-center text-2xl mt-6">
           {" "}
           <Medal className="text-yellow-600 size-14" /> Notre missions
         </p>
