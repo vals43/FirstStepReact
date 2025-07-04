@@ -46,10 +46,11 @@ const teamData = [
 
 function Profil() {
   return (
-    <div className="bg-blue-950 mx-auto p-6">
+    <div className="bg-blue-950 mx-auto p-32">
       <h2 className="text-2xl font-bold mb-6 text-center text-white">
         L'équipe pédagogique
       </h2>
+      <p className="text-center pb-20">Notre équipe pédagogique se compose d’experts nationaux et internationaux de l’informatique, de la cybersécurité, de l’intelligence artificielle, dont un ingénieur chez Google. Ils sont passionnés par l’informatique et sont engagés vers l’excellence. Nous sommes conscients que cette équipe est la pierre angulaire de l’employabilité de nos étudiants, elle a été soigneusement sélectionnée.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {teamData.map((member, index) => (
           <ProfileCard
