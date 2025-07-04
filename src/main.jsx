@@ -3,17 +3,7 @@ import './css/index.css'
 import Navbar from './components/navbar.jsx'
 import  About  from "./components/About.jsx";
 import  Debouché  from "./components/Débouché.jsx";
-<<<<<<< HEAD
-import { StrictMode } from 'react'
-import Domaine from './components/Domaine.jsx';
-
-createRoot(document.getElementById('root')).render(
-    <StrictMode>
-            <Navbar />
-            <About />
-            <Debouché/>
-            <Domaine/>
-=======
+import  AdmissionSection  from "./components/AdmissionSection.jsx";
 
 import { StrictMode } from 'react'
 import Domaine from './components/Domaine.jsx';
@@ -34,10 +24,10 @@ createRoot(document.getElementById('root')).render(
             <Domaine/>
             <Programme/>
             <Block/>
+            <AdmissionSection/>
             <SectionText/>
             <Partenaire/>
             <Footer/>
         </div>
->>>>>>> 01cf9d50d04877d74ab2d62930968bd6677ae146
     </StrictMode>
 )
