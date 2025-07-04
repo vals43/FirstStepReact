@@ -1,6 +1,6 @@
 function AdmissionSection() {
     return (
-      <div className="bg-blue-600 text-white py-12 px-6">
+      <div className="bg-blue-950 text-white py-12 px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Admission</h2>
           <p className="mb-10">
@@ -10,7 +10,7 @@ function AdmissionSection() {
   
           <div className="grid md:grid-cols-3 gap-4 text-left text-black">
 
-            <div className="bg-yellow-200 p-6 rounded-md">
+            <div className="bg-yellow-400 p-6 rounded-md">
               <h3 className="text-2xl font-bold text-white bg-yellow-500 inline-block px-3 py-1 rounded-full mb-4">
                 01
               </h3>
@@ -19,7 +19,7 @@ function AdmissionSection() {
               </p>
             </div>
   
-            <div className="bg-yellow-300 p-6 rounded-md">
+            <div className="bg-yellow-500 p-6 rounded-md">
               <h3 className="text-2xl font-bold text-white bg-yellow-500 inline-block px-3 py-1 rounded-full mb-4">
                 02
               </h3>
@@ -30,7 +30,7 @@ function AdmissionSection() {
             </div>
   
 
-            <div className="bg-yellow-400 p-6 rounded-md">
+            <div className="bg-yellow-600 p-6 rounded-md">
               <h3 className="text-2xl font-bold text-white bg-yellow-500 inline-block px-3 py-1 rounded-full mb-4">
                 03
               </h3>
