@@ -17,10 +17,10 @@ function Footer() {
 
   return (
     <footer className="bg-[#001f4d] text-white">
-    <h1 className="text-yellow-500 text-2xl size-20 font-bold pt-4 ml-6">  
+    <h1 className="text-yellow-500 text-2xl size-20 font-bold pt-4 ml-10">  
       <img src={logoHei} />
     </h1>
-      <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl  px-20  mx-auto py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <p className="text-sm">
             Formation habilitée par l’État suivant le système LMD
@@ -45,7 +45,7 @@ function Footer() {
               <li
                 key={index}
                 className={`text-sm ${
-                  link === "Accueil" ? "text-yellow-500 font-semibold" : "text-gray-300"
+                  link === "Accueil" ? "text-yellow-500 font-semibold" : "text-gray-300 hover:text-yellow-600 cursor-pointer"
                 }`}
               >
                 {link}

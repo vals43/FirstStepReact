@@ -24,9 +24,9 @@ createRoot(document.getElementById('root')).render(
             <Profil/>
             <Debouché/>
             <Domaine/>
+            <AdmissionSection/>
             <Programme/>
             <Block/>
-            <AdmissionSection/>
             <SectionText/>
             <Partenaire/>
             <Footer/>

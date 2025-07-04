@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProfileCard = ({ image, nom, texte }) => {
   return (
-    <div className="bg-white rounded-xl shadow-md w-64 overflow-hidden text-blue-950 p-8">
+    <div className="bg-white rounded-xl w-64 overflow-hidden text-blue-950 p-8">
       <div className="items-center">
         <div className="flex  justify-center">
           <img
