@@ -1,5 +1,13 @@
 import React from "react";
 import ProfileCard from "./ProfilCard.jsx";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const teamData = [
   {
@@ -46,21 +54,52 @@ const teamData = [
 
 function Profil() {
   return (
-    <div className="bg-blue-950 mx-auto p-32">
+    <div className="bg-blue-950 mx-auto p-8 md:p-32">
       <h2 className="text-2xl font-bold mb-6 text-center text-white">
         L'équipe pédagogique
       </h2>
-      <p className="text-center pb-20">Notre équipe pédagogique se compose d’experts nationaux et internationaux de l’informatique, de la cybersécurité, de l’intelligence artificielle, dont un ingénieur chez Google. Ils sont passionnés par l’informatique et sont engagés vers l’excellence. Nous sommes conscients que cette équipe est la pierre angulaire de l’employabilité de nos étudiants, elle a été soigneusement sélectionnée.</p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <p className="text-center pb-10 md:pb-20 text-white">
+        Notre équipe pédagogique se compose d’experts nationaux et internationaux de l’informatique, de la cybersécurité, de l’intelligence artificielle, dont un ingénieur chez Google. Ils sont passionnés par l’informatique et sont engagés vers l’excellence. Nous sommes conscients que cette équipe est la pierre angulaire de l’employabilité de nos étudiants, elle a été soigneusement sélectionnée.
+      </p>
+      <Swiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={1}
+        breakpoints={{
+          640: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        }}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={{ clickable: true }}
+        navigation={true}
+        loop={true}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
+        modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
+        className="mySwiper"
+      >
         {teamData.map((member, index) => (
-          <ProfileCard
-            key={index}
-            image={member.image}
-            nom={member.name}
-            texte={member.role}
-          />
+          <SwiperSlide key={index}>
+            <div className="p-4">
+            <ProfileCard
+              image={member.image}
+              nom={member.name}
+              texte={member.role}
+            />
+
+            </div>
+          </SwiperSlide>
         ))}
-      </div>
+      </Swiper>
     </div>
   );
 }
