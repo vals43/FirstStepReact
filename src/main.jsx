@@ -13,6 +13,7 @@ import SectionText from './components/Language.jsx';
 import Partenaire from './components/Partenaire.jsx';
 import Footer from './components/Footer.jsx';
 import Prof from './components/Prof.jsx';
+import Profil from './components/Profil.jsx';
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
@@ -20,6 +21,7 @@ createRoot(document.getElementById('root')).render(
             <Navbar />
             <Prof/>
             <About />
+            <Profil/>
             <Debouché/>
             <Domaine/>
             <Programme/>
