@@ -3,7 +3,7 @@ import logoHei from '../assets/img/Logo HEI.png';
 
 function Navbar() {
     return (
-        <div className="navbar h-24 bg-blue-950 rounded-box">
+        <div className="navbar h-24 z-50 bg-blue-950">
           <div className="flex-1 px-2 lg:flex-none">
             <img src={logoHei} alt="" className="h-20" />
           </div>

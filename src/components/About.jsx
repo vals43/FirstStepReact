@@ -17,7 +17,7 @@ function About() {
       <div>
         <h1 className="text-4xl">À propos de nous</h1>
         <p className="flex text-2xl mt-6">
-          <GraduationCap className="text-yellow-600" /> +3Ans
+          <GraduationCap className="text-yellow-600 size-14" /> +3Ans
         </p>
         <p>
           Depuis 3 ans, nous formons ceux qui décodent le futur, aux métiers de
@@ -26,7 +26,7 @@ function About() {
         </p>
         <p className="flex text-2xl mt-6">
           {" "}
-          <Users2 className="text-yellow-600" /> +250 étudiants
+          <Users2 className="text-yellow-600 size-14" /> +250 étudiants
         </p>
         <p>
           Plus de 250 étudiants et plus d’une dizaine d’entreprises ont déjà
@@ -36,7 +36,7 @@ function About() {
         </p>
         <p className="flex text-2xl mt-6">
           {" "}
-          <Medal className="text-yellow-600" /> Notre missions
+          <Medal className="text-yellow-600 size-14" /> Notre missions
         </p>
         <p>
           Notre mission est d’amener des jeunes malgaches sur des domaines
