@@ -1,6 +1,6 @@
 function Card({ imageSrc, imageAlt, title, description }) {
     return (
-      <div className="max-w-80 rounded-lg overflow-hidden  shadow-md bg-white transform transition-transform duration-300 hover:scale-105">
+      <div className="max-w-80 rounded-lg overflow-hidden  shadow-md bg-white transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
 
         <img
           className=" rounded-xl ml-24 mb-5 mt-5 border-x-4 h-28 object-cover" 
