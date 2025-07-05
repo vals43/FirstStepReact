@@ -27,14 +27,14 @@ function Domaine() {
     ];
 
     return (
-        <div className="bg-slate-100 shadow-md py-8 px-4 sm:px-8 md:px-16 lg:px-32">
-            <h1 className="text-blue-950 text-3xl sm:text-4xl md:text-5xl mb-3 font-bold">
+        <div className="bg-slate-100 shadow-md py-6 px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
+            <h1 className="text-blue-950 text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 font-bold">
                 Domaines :
             </h1>
-            <h3 className="text-blue-950 text-base sm:text-lg md:text-xl m-4 md:m-5">
+            <h3 className="text-blue-950 text-sm sm:text-base md:text-lg lg:text-xl mb-6 mx-2 sm:mx-4 md:mx-5">
                 Au cours de vos trois ans de formation, naviguez entre les domaines les plus porteurs du numérique du présent et de l’avenir :
             </h3>
-            <div className="flex items-center md:flex-row gap-4 md:gap-8">
+            <div className="flex flex-col items-center md:flex-row gap-4 sm:gap-6 md:gap-8">
                 {domains.map((domain, index) => (
                     <Card
                         key={index}
@@ -42,6 +42,7 @@ function Domaine() {
                         imageAlt={domain.imageAlt}
                         title={domain.title}
                         description={domain.description}
+                        className="flex-1 min-w-0"
                     />
                 ))}
             </div>

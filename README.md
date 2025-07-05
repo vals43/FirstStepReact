@@ -1,12 +1,12 @@
-# React + Vite
+# FirstStepReact
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est une application web front-end construite avec React, servant de **réplique (clone)** d'une partie de l'interface utilisateur du site [hei.school](https://www.hei.school/). Il met en avant l'intégration de fonctionnalités modernes et l'utilisation de plusieurs frameworks UI.
 
-Currently, two official plugins are available:
+## Technologies Utilisées
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* [**React**](https://react.dev/) : Bibliothèque JavaScript pour la construction d'interfaces utilisateur.
+* [**Tailwind CSS**](https://tailwindcss.com/) : Framework CSS utilitaire pour un stylisme rapide et personnalisable.
+* [**Lucid React**](https://lucid.app/lucid-react/latest/index.html) : (Si c'est bien la bibliothèque que vous utilisez, ajustez le lien si nécessaire) Composants UI pour React.
+* [**Swiper.js**](https://swiperjs.com/) : Le carrousel tactile moderne le plus populaire.
+* **JavaScript (ES6+)**
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

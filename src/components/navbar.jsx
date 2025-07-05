@@ -14,7 +14,7 @@ function Navbar() {
     ];
 
     return (
-        <nav className="h-20 md:h-24 z-50 bg-blue-950 fixed w-full top-0">
+        <nav className="h-20 md:h-24 z-50 bg-blue-950 w-full top-0">
             <div className="container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8">
                 <div className="flex-shrink-0">
                     <img src={logoHei} alt="HEI Logo" className="h-16 md:h-20 w-auto" />
